@@ -1,0 +1,18 @@
+{
+  "format_version": "2",
+  "header": {
+    "description": "意味わかんないマイクラ ビヘイビアパック",
+    "name": "意味わかんないマイクラ",
+    "uuid": "c81c04ae-f515-4c68-a85d-6a10c9b1c9e2",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 10]
+  },
+  "modules": [
+    {
+      "description": "意味わかんないマイクラ ビヘイビアパック",
+      "type": "data",
+      "uuid": "0b9e2043-bdbf-4735-b3f0-bc028d7c49f8",
+      "version": [1, 0, 0]
+    }
+  ]
+}
