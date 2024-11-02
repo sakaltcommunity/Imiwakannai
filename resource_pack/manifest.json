@@ -1,0 +1,18 @@
+{
+  "format_version": "2",
+  "header": {
+    "description": "意味わかんないマイクラ リソースパック",
+    "name": "意味わかんないマイクラ",
+    "uuid": "7eec1f54-8c98-4787-a9cf-3edda6b1b7c1",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 10]
+  },
+  "modules": [
+    {
+      "description": "意味わかんないマイクラ リソースパック",
+      "type": "data",
+      "uuid": "03f31ef3-b0e2-4f51-9b73-c244e10b7303",
+      "version": [1, 0, 0]
+    }
+  ]
+}
