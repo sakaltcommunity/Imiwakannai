@@ -1,0 +1,55 @@
+{
+  "format_version": "1.20.1",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "imiwakannai:obsidian_land",
+      "name": "黒曜石の地"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0,
+        "temperature": 2.0
+      },
+      "minecraft:surface_properties": {
+        "surface_material": "minecraft:obsidian",
+        "ground_material": "minecraft:basalt",
+        "sea_material": "minecraft:lava",
+        "bedrock_floor_position": 0
+      },
+      "minecraft:nether_generation_rules": {
+        "noise_settings": {
+          "density": 0.5,
+          "scale": 0.8,
+          "octaves": 4
+        },
+        "surface_rule": "surface_material"
+      },
+      "minecraft:biome_fog": {
+        "fog_color": "#0D0D0D",
+        "fog_density": 2,
+        "sky_color": "#1C1C1C",
+        "water_color": "#3F3F3F",
+        "water_fog_color": "#1A1A1A"
+      },
+      "minecraft:spawn_rules": {
+        "creatures": [
+          {
+            "type": "minecraft:piglin",
+            "weight": 10,
+            "max_count": 8
+          },
+          {
+            "type": "minecraft:blaze",
+            "weight": 8,
+            "max_count": 6
+          },
+          {
+            "type": "minecraft:magma_cube",
+            "weight": 5,
+            "max_count": 4
+          }
+        ]
+      }
+    }
+  }
+}
