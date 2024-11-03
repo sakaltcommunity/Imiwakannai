@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "imiwakannai:kyabett",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_mob": true,
+      "min_spawn_delay": 100,
+      "max_spawn_delay": 400,
+      "max_health": 10,
+      "movement_type": "walk",
+      "loot": "loot_tables/entities/kyabetu.json",
+      "textures": [
+        "textures/entities/kyabett.png"
+      ],
+      "models": {
+        "default": "resource_pack/models/kyabett.json"
+      },
+      "scale": 1.0
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 38
+      },
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:collision_box": {
+        "width": 0.64,
+        "height": 0.64
+      },
+      "minecraft:entity_sensor": {
+        "sensor_radius": 14
+      },
+      "minecraft:attack": {
+        "damage": 5,
+        "attack_interval": 1
+      }
+    },
+    "minecraft:spawn_rules": {
+      "can_spawn": {
+        "biomes": [
+          "basalt_delta"
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.3
+          }
+        ]
+      }
+    }
+  }
+}
