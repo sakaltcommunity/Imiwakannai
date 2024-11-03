@@ -17,8 +17,9 @@
       "minecraft:display_name":{
         "value": "キャベツの斧"
       },
+       "minecraft:cooldown": 25,
        "minecraft:damage": 19,
-       "minecraft:durability": 1200
+       "minecraft:durability": 2067
     }
   }
 }
