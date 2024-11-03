@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "imiwakannai:tissue",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_mob": true,
+      "min_spawn_delay": 100,
+      "max_spawn_delay": 400,
+      "max_health": 63,
+      "movement_type": "walk",
+      "loot": "loot_tables/entities/tissue.json",
+      "textures": [
+        "textures/entities/tissue.png"
+      ],
+      "models": {
+        "default": "resource_pack/models/tissue.json"
+      },
+      "scale": 1.0
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 63
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:collision_box": {
+        "width": 0.75,
+        "height": 0.75
+      },
+      "minecraft:entity_sensor": {
+        "sensor_radius": 30
+      },
+      "minecraft:attack": {
+        "damage": 5,
+        "attack_interval": 1
+      }
+    },
+    "minecraft:spawn_rules": {
+      "can_spawn": {
+        "biomes": [
+          "obsidian_land"
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.4
+          }
+        ]
+      }
+    }
+  }
+}
