@@ -8,7 +8,7 @@
       "is_mob": true,
       "min_spawn_delay": 100,
       "max_spawn_delay": 400,
-      "max_health": 10,
+      "max_health": 38,
       "movement_type": "walk",
       "loot": "loot_tables/entities/kyabetu.json",
       "textures": [
