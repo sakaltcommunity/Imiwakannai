@@ -15,7 +15,7 @@
       "minecraft:enchantable":{"value":15,"slot":"all"},
       "minecraft:icon":"tissue_sword",
       "minecraft:display_name":{
-        "value": "キャベツの剣"
+        "value": "ティッシュの剣"
       },
        "minecraft:damage": 9,
        "minecraft:durability": 1465
