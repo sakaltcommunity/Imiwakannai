@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.20",
+  "biomes": {
+    "imiwakannai:hormor_plains": {
+      "precipitation": "rain",
+      "temperature": 0.8,
+      "depth": 0.125,
+      "scale": 0.05,
+      "biome_category": "plains",
+      "grass_color": "#B3D94C",
+      "foliage_color": "#B3D94C",
+      "sky_color": "#78A3C8",
+      "surface_builder": {
+        "type": "minecraft:grass",
+        "config": {
+          "top_material": "minecraft:grass_block",
+          "fill_material": "minecraft:dirt",
+          "stone_material": "minecraft:stone"
+        }
+      },
+      "spawn_rules": {
+        "spawns": [
+          {
+            "type": "minecraft:cow",
+            "weight": 10,
+            "min_count": 2,
+            "max_count": 5
+          },
+          {
+            "type": "imiwakannai:hormorlon",
+            "weight": 3,
+            "min_count": 8,
+            "max_count": 64
+          },
+          {
+            "type": "minecraft:zombie",
+            "weight": 5,
+            "min_count": 1,
+            "max_count": 3,
+            "conditions": {
+              "condition": "minecraft:match_time",
+              "time": {
+                "min": 13000,
+                "max": 23000
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
