@@ -1,0 +1,40 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "imiwakannai:kyabetu_bow",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/kyabetu_bow",
+      "minecraft:durability": {
+        "max_durability": 668
+      },
+      "minecraft:chargeable": {
+        "charges": [
+          {
+            "name": "draw",
+            "time": 20,
+            "on_complete": {
+              "event": "shoot"
+            }
+          }
+        ],
+        "max_draw_time": 20,
+        "cooldown_time": 5
+      },
+      "minecraft:damage": {
+        "min_damage": 3,
+        "max_damage": 13
+      }
+    },
+    "events": {
+      "shoot": {
+        "shoot": {
+          "projectile": "minecraft:arrow",
+          "power": 1.0
+        }
+      }
+    }
+  }
+}
