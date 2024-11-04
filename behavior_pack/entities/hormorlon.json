@@ -1,0 +1,55 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "imiwakannai:hormorlon",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_mob": true,
+      "min_spawn_delay": 8,
+      "max_spawn_delay": 64,
+      "max_health": 60,
+      "movement_type": "walk",
+      "loot": "loot_tables/entities/hormorlon.json",
+      "textures": [
+        "textures/entities/hormorlon.png"
+      ],
+      "models": {
+        "default": "resource_pack/models/hormorlon.json"
+      },
+      "scale": 1.0
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 60
+      },
+      "minecraft:movement": {
+        "value": 0.7
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 0.9
+      },
+      "minecraft:entity_sensor": {
+        "sensor_radius": 16
+      },
+      "minecraft:attack": {
+        "damage": 7,
+        "attack_interval": 1
+      }
+    },
+    "minecraft:spawn_rules": {
+      "can_spawn": {
+        "biomes": [
+          "imiwakannai:hormor_plains"
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      }
+    }
+  }
+}
