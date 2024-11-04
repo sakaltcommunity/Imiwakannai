@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.20",
+  "dimensions": {
+    "imiwakannai:hormor": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "default",
+        "biome": "imiwakannai:hormor_plains"
+      }
+    }
+  }
+}
