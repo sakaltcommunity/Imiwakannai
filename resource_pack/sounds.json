@@ -1,0 +1,10 @@
+{
+  "light_dry": {
+    "sounds": [
+      {
+        "name": "sounds/light_dry",
+        "stream": false
+      }
+    ]
+  }
+}
