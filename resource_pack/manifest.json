@@ -5,7 +5,7 @@
     "name": "意味わかんないマイクラ",
     "uuid": "7eec1f54-8c98-4787-a9cf-3edda6b1b7c1",
     "version": [1, 0, 0],
-    "min_engine_version": [1, 21, 10]
+    "min_engine_version": [1, 21, 41]
   },
   "modules": [
     {
