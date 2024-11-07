@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.41",
+  "minecraft:item": {
+    "description": {
+      "identifier": "imiwakannai:kyabetu",
+      "menu_category":{
+        "group":"itemGroup.name.anvil",
+        "category":"construction"
+      }
+    },
+    "components": {
+    "minecraft:icon":"kyabetu",
+    "minecraft:display_name":{
+      "value": "キャベツ"
+    },
+    "minecraft:use_modifiers": {
+      "use_duration": 1.2,
+      "movement_modifier": 0.9
+    },
+    "minecraft:use_animation": "drink",
+    "minecraft:food":{
+      "can_always_eat": true,
+      "nutrition" : 4,
+      "saturation_modifier": 6
+    }
+    }
+  }
+}
